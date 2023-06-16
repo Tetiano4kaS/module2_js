@@ -9,8 +9,7 @@ fetch('https://jsonplaceholder.typicode.com/users')
             let btn = document.createElement('button')
             btn.classList.add('userBtn')
             btn.innerText = 'Details'
-            btn.onclick = function (e) {
-                e.preventDefault()
+            btn.onclick = function () {
                 localStorage.setItem('user', JSON.stringify(user))
                 location.href="../user-details"
             }
