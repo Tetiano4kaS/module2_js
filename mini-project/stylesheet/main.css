@@ -1,0 +1,83 @@
+.userDiv{
+    display: flex;
+    flex-wrap: wrap;
+    height: 20vh;
+    width: 40%;
+    background-color: beige;
+    border-radius: 30px;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.userBtn{
+    height: fit-content;
+}
+
+.usersContainer{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.userDetail{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.userDivInfo{
+    width: 100%;
+    height: fit-content;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    background-color: antiquewhite;
+}
+
+.userInformation:first-letter,.postEl,.commentD{
+    text-transform: capitalize;
+}
+.postOfCurrentBtn{
+    width: 90%;
+}
+.btnWrapper{
+    display: flex;
+    justify-content: center;
+    margin: 10px 10px;
+}
+.postsWrapper{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.postDetailsBtn{
+    width: fit-content;
+}
+.postInformation{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 18%;
+    border: 1px solid;
+    text-align: center;
+    align-items: center;
+    background-color: snow;
+}
+.postDetails{
+    background-color: beige;
+}
+.commentDetails{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.commentD{
+    margin-top: 5px;
+    width: 23%;
+    background-color: aliceblue;
+    border: 1px solid;
+}
+
